@@ -33,7 +33,7 @@ const todoRoute = require('./routes/todoRoutes');
 
 // users route
 app.use('/auth/', authRoute);
-app.use('/users', userRoute);
+// app.use('/users', userRoute);
 app.use('/todos', todoRoute);
 
 // listen
